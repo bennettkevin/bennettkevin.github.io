@@ -4,7 +4,7 @@ const page = document.querySelector('#page')
 
 
 function aboutPage () {
-    page.innerHTML($("#page").load('pages/about/about.html'));
+    page.innerHTML($("#sidebar").load('pages/Sidebar/sidebar.html'));
 }
 
 
