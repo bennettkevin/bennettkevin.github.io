@@ -1,8 +1,12 @@
+:root{
+    background-color: red;
+}
 h1{
     display: flex;
 }
 
 #page{
+    display: flexbox;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -10,3 +14,16 @@ h1{
 #page::-webkit-scrollbar {
     display: none;
   }
+
+.section-header{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16pt;
+}
+
+.list-head{
+    font-weight: bold;
+}
