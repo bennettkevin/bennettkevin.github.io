@@ -18,6 +18,10 @@ h1{
 .section-header{
     font-size: 25pt;
     font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
 }
 
 p{
